@@ -67,6 +67,6 @@ for( var i =0;i<questions.length;i++){
     play(questions[i].question,questions[i].answer)
 }
 if(score == 15 ){
-    console.log("Cheers you made a perfect score!")
+    console.log(chalk.red("Cheers you made a perfect score!"))
 }
 console.log(chalk.greenBright("YaY! your score is: ",score))
